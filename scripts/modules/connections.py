@@ -28,10 +28,10 @@ def bluestar_ftp():
     pwd = os.environ.get('BLUESTAR_PWD')
     dir = '/incoming'
 
-    host = 'ftp.sumo.com.au'
-    usr = os.environ.get('BRAVE_USR')
-    pwd = os.environ.get('BRAVE_PWD')
-    dir = '//test folder//'
+    host = 'ftp.sumo.com.au' # Test
+    usr = os.environ.get('BRAVE_USR') # Test
+    pwd = os.environ.get('BRAVE_PWD') # Test
+    dir = '//test folder//' # Test
 
     ftp = FTP(host)
     ftp.login(usr, pwd)

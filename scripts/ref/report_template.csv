@@ -1,15 +1,15 @@
-﻿Index,Jurisdiction,Type,Print,Email,Total
-VIC_IN,VIC,Invoice,0,0,0
-VIC_RN,VIC,Reminder Notice,0,0,0
-VIC_DN,VIC,Disconnection Notice,0,0,0
-VIC_WP,VIC,Welcome Pack,0,0,0
-VIC_CN,VIC,Contract Novation,0,0,0
-VIC_TL,VIC,Transfer Letter,0,0,0
-VIC_PP,VIC,Payment Plan,0,0,0
-NSW_IN,NSW,Invoice,0,0,0
-NSW_RN,NSW,Reminder Notice,0,0,0
-NSW_DN,NSW,Disconnection Notice,0,0,0
-NSW_WP,NSW,Welcome Pack,0,0,0
-NSW_CN,NSW,Contract Novation,0,0,0
-NSW_TL,NSW,Transfer Letter,0,0,0
-NSW_PP,NSW,Payment Plan,0,0,0
+﻿Jurisdiction,Type,Print,Email,Total
+VIC,Invoice,0,0,0
+VIC,Reminder Notice,0,0,0
+VIC,Disconnection Notice,0,0,0
+VIC,Welcome Pack,0,0,0
+VIC,Contract Novation,0,0,0
+VIC,Transfer Letter,0,0,0
+VIC,Payment Plan,0,0,0
+NSW,Invoice,0,0,0
+NSW,Reminder Notice,0,0,0
+NSW,Disconnection Notice,0,0,0
+NSW,Welcome Pack,0,0,0
+NSW,Contract Novation,0,0,0
+NSW,Transfer Letter,0,0,0
+NSW,Payment Plan,0,0,0
