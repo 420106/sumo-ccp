@@ -16,8 +16,7 @@ report_template = f'{root}scripts\\ref_data\\report_template.csv'
 '''
     Files
 '''
-# files = 'C:\\Users\\sliu\\Documents\\GitHub\\sumo-ccp\\files\\' # Local test path
-files = 'C:\\Apps\\sumo-ccp\\files\\' # Server path
+files = f'{root}files\\'
 
 # XMLs
 xmls = f'{files}xmls\\'
