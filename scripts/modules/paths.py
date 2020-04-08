@@ -2,9 +2,10 @@ import os
 
 # ---------------------------------------------------------------------------------------------------------
 '''
-    Local
+    App
 '''
-root = 'C:\\Users\\sliu\\Documents\\GitHub\\sumo-ccp\\' # Local dev repository
+root = 'C:\\Users\\sliu\\Documents\\GitHub\\sumo-ccp\\' # Local dev repo
+# root = 'C:\\Apps\\sumo-ccp\\' # Server repo
 
 # Reference files
 xml_checklist = f'{root}scripts\\ref\\xml_checklist.csv'
@@ -13,9 +14,10 @@ report_template = f'{root}scripts\\ref\\report_template.csv'
 
 # ---------------------------------------------------------------------------------------------------------
 '''
-    Cloud
+    Files
 '''
-files = 'C:\\Users\\sliu\\Documents\\GitHub\\sumo-ccp\\files\\' # Test path
+files = 'C:\\Users\\sliu\\Documents\\GitHub\\sumo-ccp\\files\\' # Local test path
+# files = 'C:\\Apps\\ccp-scripts\\files\\' # Server path
 
 # XMLs
 xmls = f'{files}xmls\\'

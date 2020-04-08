@@ -1,0 +1,15 @@
+Jurisdiction,Type,Print,Email,Total
+VIC,Invoice,1573,4734,6307
+VIC,Reminder Notice,257,200,457
+VIC,Disconnection Notice,110,137,247
+VIC,Welcome Pack,32,49,81
+VIC,Contract Novation,14,59,73
+VIC,Transfer Letter,25,56,81
+VIC,Payment Plan,97,206,303
+NSW,Invoice,277,481,758
+NSW,Reminder Notice,74,128,202
+NSW,Disconnection Notice,33,2,35
+NSW,Welcome Pack,25,14,39
+NSW,Contract Novation,1,2,3
+NSW,Transfer Letter,3,9,12
+NSW,Payment Plan,8,32,40
