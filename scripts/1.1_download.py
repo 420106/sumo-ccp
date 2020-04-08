@@ -3,7 +3,8 @@ import importlib.util
 from datetime import datetime
 
 # ---------------------------------------------------------------------------------------------------------
-root = 'C:\\Users\\sliu\\Documents\\GitHub\\sumo-ccp\\'
+# root = 'C:\\Users\\sliu\\Documents\\GitHub\\sumo-ccp\\' # Local dev repo
+root = 'C:\\Apps\\sumo-ccp\\' # Server repo
 os.chdir(root)
 
 modules = 'scripts\\modules\\'
