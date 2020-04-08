@@ -45,7 +45,7 @@ try:
     summary = []
     log.write('--------------------------------------------------\n')
     for file in os.listdir(src):
-        if (file.endswith('.pdf')) & (len(file) == 47):
+        if file.endswith('.pdf') and len(file) == 47:
             with open(src + file, 'rb') as f:
                 print(f'Uploading {file}...')
                 log.write(f'{datetime.now().strftime("[%H:%M:%S]")} Uploding {file}...\n')

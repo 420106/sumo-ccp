@@ -32,7 +32,7 @@ d = {'doc_type':{'Invoice': 'Invoice',
 
 print('Sorting XML data...')
 for file in os.listdir(xmls):
-    if file.endswith('.xml') & (len(file) == 39):
+    if file.endswith('.xml') and len(file) == 39:
         tree = ET.parse(xmls + file)
         root = tree.getroot()
         for cus in root.findall('Customer'):

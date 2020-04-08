@@ -49,7 +49,7 @@ try:
     c = 0
     log.write('--------------------------------------------------\n')
     for file in ftp.nlst():
-        if (file.endswith('.xml')) & (len(file) == 39) & (file not in checklist):
+        if file.endswith('.xml') and len(file) == 39 and file not in checklist:
             print(f'Downloading {file}...')
             log.write(f'{datetime.now().strftime("[%H:%M:%S]")} Downloading {file}...\n')
             ftp.retrbinary(f'RETR {file}', open(dst + file, 'wb').write)
