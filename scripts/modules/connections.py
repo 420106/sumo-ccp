@@ -4,7 +4,7 @@ from ftplib import FTP
 
 def brave_ftp():
     '''
-        Sumo FTP to receive Brave XML
+        Sumo FTP to receive Brave XMLs
     '''
     host = 'ftp.sumo.com.au'
     usr = os.environ.get('BRAVE_USR')
@@ -19,7 +19,7 @@ def brave_ftp():
 
 def bluestar_ftp():
     '''
-        BlueStar FTP to upload PDF files
+        BlueStar FTP to upload PDFs
     '''
     host = 'ftp.securitymail.com.au'
     usr = os.environ.get('BLUESTAR_USR')
