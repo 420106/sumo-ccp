@@ -1,7 +1,7 @@
 import os
 from ftplib import FTP
 
-# ---------------------------------------------------------------------------------------------------------
+
 def brave_ftp():
     '''
         Sumo FTP to receive Brave XML
@@ -16,9 +16,7 @@ def brave_ftp():
     ftp.cwd(dir)
     print('Brave FTP connected\nDirectory: {}'.format(dir))
     return ftp
-# ---------------------------------------------------------------------------------------------------------
 
-# ---------------------------------------------------------------------------------------------------------
 def bluestar_ftp():
     '''
         BlueStar FTP to upload PDF files
@@ -38,8 +36,3 @@ def bluestar_ftp():
     ftp.cwd(dir)
     print('BlueStar FTP connected\nDirectory: {}'.format(dir))
     return ftp
-# ---------------------------------------------------------------------------------------------------------
-
-if __name__ == '__main__':
-    brave_ftp()
-    bluestar_ftp()

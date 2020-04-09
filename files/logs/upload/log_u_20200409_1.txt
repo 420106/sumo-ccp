@@ -1,0 +1,15 @@
+Date: 20200409
+--------------------------------------------------
+[21:40:00] Connecting to Brave FTP...
+--------------------------------------------------
+--------------------------------------------------
+Invoice: 0
+Reminder Notice: 0
+Disconnection Notice: 0
+Welcome Pack: 0
+Contract Novation: 0
+Transfer Letter: 0
+Payment Plan: 0
+Direct Debit Letter: 0
+--------------------------------------------------
+Total 0
