@@ -7,7 +7,7 @@ from datetime import datetime
 
 
 root = os.environ.get('ROOT') \
-or 'C:\\Users\\sliu\\Documents\\GitHub\\sumo-ccp\\' # Local dev repo
+or 'C:\\Users\\sliu\\Documents\\GitHub\\sumo-ccp\\' # local dev repo
 
 os.chdir(root)
 modules = 'scripts\\modules\\'

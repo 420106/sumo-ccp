@@ -5,7 +5,7 @@ import os
     App
 '''
 root = os.environ.get('ROOT') \
-or 'C:\\Users\\sliu\\Documents\\GitHub\\sumo-ccp\\' # Local dev repo
+or 'C:\\Users\\sliu\\Documents\\GitHub\\sumo-ccp\\' # local dev repo
 
 # Reference files
 xml_checklist = f'{root}scripts\\ref_data\\xml_checklist.csv'
