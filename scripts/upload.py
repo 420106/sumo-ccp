@@ -42,19 +42,23 @@ def upload():
         log.write('--------------------------------------------------\n')
         print('Connecting to BlueStar FTP...')
         log.write(f'{datetime.now().strftime("[%H:%M:%S]")} Connecting to Brave FTP...\n')
-        ftp = connections.bluestar_ftp()
+        # ftp = connections.bluestar_ftp() # replaced with SFTP
+        sftp = connections.bluestar_sftp()
         src = paths.pdfs
         summary = []
         log.write('--------------------------------------------------\n')
         for file in os.listdir(src):
             if file.endswith('.pdf') and len(file) == 47:
-                with open(src + file, 'rb') as f:
-                    print(f'Uploading {file}...')
-                    log.write(f'{datetime.now().strftime("[%H:%M:%S]")} Uploding {file}...\n')
-                    summary.append(file[:2])
-                    ftp.storbinary(f'STOR {file}', f)
-                    f.close()
+                print(f'Uploading {file}...')
+                log.write(f'{datetime.now().strftime("[%H:%M:%S]")} Uploding {file}...\n')
+                summary.append(file[:2])
+                # with open(src + file, 'rb') as f: # replaced with SFTP
+                #     ftp.storbinary(f'STOR {file}', f)
+                #     f.close()
+                sftp.put(src + file, file, confirm = False)
                 os.remove(src + file)
+        # ftp.close() # replaced with SFTP
+        sftp.close()
         log.write('--------------------------------------------------\n')
         print('Summarizing...')
         d = {'IN': 'Invoice',
