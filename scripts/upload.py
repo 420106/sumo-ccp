@@ -3,10 +3,10 @@ import os
 from datetime import datetime
 
 
-root = os.environ.get('ROOT') \
+basdir = os.environ.get('BASEDIR') \
 or 'C:\\Users\\sliu\\Documents\\GitHub\\sumo-ccp\\' # local dev repo
 
-os.chdir(root)
+os.chdir(basdir)
 modules = 'scripts\\modules\\'
 # Paths module
 spec = importlib.util.spec_from_file_location('paths', f'{modules}paths.py')

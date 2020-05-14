@@ -4,17 +4,17 @@ import os
 '''
     App
 '''
-root = os.environ.get('ROOT') \
+basdir = os.environ.get('BASEDIR') \
 or 'C:\\Users\\sliu\\Documents\\GitHub\\sumo-ccp\\' # local dev repo
 
 # Reference files
-xml_checklist = f'{root}scripts\\ref_data\\xml_checklist.csv'
-report_template = f'{root}scripts\\ref_data\\report_template.csv'
+xml_checklist = f'{basdir}scripts\\ref_data\\xml_checklist.csv'
+report_template = f'{basdir}scripts\\ref_data\\report_template.csv'
 
 '''
     Files
 '''
-files = f'{root}files\\'
+files = f'{basdir}files\\'
 # XMLs
 xmls = f'{files}xmls\\'
 invoice = f'{xmls}invoice\\' # Invoice; Final Invoice; Reminder Notice; Final Notice (Disconnection Notice)
