@@ -40,8 +40,10 @@ def upload():
     try:
         log.write(f'Date: {date}\n')
         log.write('--------------------------------------------------\n')
-        print('Connecting to BlueStar FTP...')
-        log.write(f'{datetime.now().strftime("[%H:%M:%S]")} Connecting to Brave FTP...\n')
+        # print('Connecting to BlueStar FTP...')
+        print('Connecting to BlueStar SFTP...')
+        # log.write(f'{datetime.now().strftime("[%H:%M:%S]")} Connecting to Brave FTP...\n')
+        log.write(f'{datetime.now().strftime("[%H:%M:%S]")} Connecting to Brave SFTP...\n')
         # ftp = connections.bluestar_ftp() # replaced with SFTP
         sftp = connections.bluestar_sftp()
         src = paths.pdfs
@@ -74,8 +76,8 @@ def upload():
         print(f'Total: {len(summary)}')
         log.write(f'Total {len(summary)}\n')
     except Exception as e:
-        print(f'Error: {e}')
         log.write(f'{datetime.now().strftime("[%H:%M:%S]")} Error: {e}\n')
+        raise
     finally:
         log.close()
 

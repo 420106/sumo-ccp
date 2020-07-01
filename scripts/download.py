@@ -68,8 +68,8 @@ def download():
         print(f'Total: {c}')
         log.write(f'Total: {c}')
     except Exception as e:
-        print(f'Error: {e}')
         log.write(f'{datetime.now().strftime("[%H:%M:%S]")} Error: {e}\n')
+        raise
     finally:
         log.close()
 
