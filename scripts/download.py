@@ -88,7 +88,7 @@ def report():
                      'ContractNovation': 'Contract Novation',
                      'TransferLetter': 'Transfer Letter',
                      'PaymentPlan': 'Payment Plan'},
-         'juri': {'VIC': 'VIC', 'NSW': 'NSW'},
+         'juri': {'VIC': 'VIC', 'NSW': 'NSW', 'QLD': 'QLD'},
          'dis_meth': {'Email': 'Email', 'Print': 'Print'}}
     print('Sorting XML data...')
     for file in os.listdir(xmls):

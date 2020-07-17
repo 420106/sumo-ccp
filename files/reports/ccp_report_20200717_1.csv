@@ -1,11 +1,11 @@
-﻿Jurisdiction,Type,Print,Email,Total
-VIC,Invoice,0,0,0
-VIC,Reminder Notice,0,0,0
-VIC,Disconnection Notice,0,0,0
-VIC,Welcome Pack,0,0,0
-VIC,Contract Novation,0,0,0
-VIC,Transfer Letter,0,0,0
-VIC,Payment Plan,0,0,0
+Jurisdiction,Type,Print,Email,Total
+VIC,Invoice,259,1283,1542
+VIC,Reminder Notice,102,138,240
+VIC,Disconnection Notice,95,190,285
+VIC,Welcome Pack,6,36,42
+VIC,Contract Novation,11,35,46
+VIC,Transfer Letter,2,16,18
+VIC,Payment Plan,18,46,64
 NSW,Invoice,0,0,0
 NSW,Reminder Notice,0,0,0
 NSW,Disconnection Notice,0,0,0
@@ -16,7 +16,7 @@ NSW,Payment Plan,0,0,0
 QLD,Invoice,0,0,0
 QLD,Reminder Notice,0,0,0
 QLD,Disconnection Notice,0,0,0
-QLD,Welcome Pack,0,0,0
+QLD,Welcome Pack,0,2,2
 QLD,Contract Novation,0,0,0
 QLD,Transfer Letter,0,0,0
 QLD,Payment Plan,0,0,0
